@@ -1,0 +1,40 @@
+.last-first-name {
+  align-self: end;
+  font-size: 12rem;
+  font-family: "Source Code Pro", monospace;
+  color: var(--clr-accent);
+  margin: 0;
+  line-height: 0.8;
+}
+.email {
+  align-self: end;
+  color: var(--clr-accent);
+  margin: 0;
+  line-height: 0.8;
+  /* font-size: 2.07rem; */
+  font-size: 3.07rem;
+}
+.email-hidden {
+  color: var(--clr-primary);
+  z-index: 100;
+}
+
+@media (max-width: 1500px) {
+  .last-first-name {
+    font-size: 10rem;
+  }
+
+  .email {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .last-first-name {
+    font-size: 10rem;
+  }
+
+  .email {
+    font-size: 3.07rem;
+  }
+}
