@@ -53,6 +53,8 @@
 }
 .section2 {
   height: 100vh;
+  position: relative;
+  z-index: 200;
   background-color: var(--clr-primary);
   display: flex;
   justify-content: center;

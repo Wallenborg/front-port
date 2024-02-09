@@ -1,4 +1,5 @@
 .header-box {
+  position: relative;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -6,7 +7,7 @@
   top: 0;
   left: 0;
   padding: 0 10px;
-  z-index: 10;
+  z-index: 600;
 }
 
 header {

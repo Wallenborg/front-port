@@ -13,7 +13,7 @@ function RandomPixel({ keyToRestart }) {
       setPixels((prevPixels) => [...prevPixels, newPixel]);
     };
 
-    const intervalId = setInterval(generatePixel, 100);
+    const intervalId = setInterval(generatePixel, 400);
 
     const restartTimer = setTimeout(() => {
       clearInterval(intervalId);
@@ -36,8 +36,8 @@ function RandomPixel({ keyToRestart }) {
             position: "absolute",
             left: pixel.left,
             top: pixel.top,
-            width: "10vw",
-            height: "10vw",
+            width: "5vw",
+            height: "5vw",
             backgroundColor: "var(--clr-accent)",
           }}
         />

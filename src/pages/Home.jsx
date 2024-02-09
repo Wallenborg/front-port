@@ -2,13 +2,13 @@ import SecretText from "../components/secrettext/SecretText";
 import Email from "../components/email/Email";
 import InfoText from "../components/infoText/InfoText";
 import Name from "../components/name/Name";
-import RandomPixel from "../components/randomPixel/RandomPixel";
+// import RandomPixel from "../components/randomPixel/RandomPixel";
 import "./pages.css";
 
 function Home() {
   return (
     <section id="Home" className="site-section section1">
-      <RandomPixel />
+      {/* <RandomPixel /> */}
       <div className="div1">
         <Name />
       </div>

@@ -4,7 +4,7 @@
   bottom: 2rem;
   right: 4rem;
   transition: all 0.5s ease-in-out;
-  z-index: 5;
+  z-index: 600;
 }
 
 .test2 {
@@ -13,7 +13,7 @@
   position: fixed;
   bottom: 3.2rem;
   background-color: var(--clr-accent);
-  z-index: 4;
+  z-index: 500;
 }
 
 button {
@@ -33,7 +33,7 @@ button {
   bottom: 2rem;
   left: 4rem;
   transition: all 0.5s ease-in-out;
-  z-index: 5;
+  z-index: 600;
 }
 
 @media (max-width: 450px) {
