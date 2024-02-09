@@ -13,7 +13,7 @@ function Button() {
 
   return (
     <div className="test2">
-      <Link to={buttonText === "PROJECTS" ? "/projects" : "/home"}>
+      <Link to={buttonText === "PROJECTS" ? "/projects" : "/"}>
         <button onClick={handleOnClick} className="main-button">
           {buttonText}
         </button>

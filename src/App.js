@@ -11,11 +11,10 @@ function App() {
     <Router>
       <main>
         <Header />
+
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          {/* Set "/home" as the default route */}
-          <Route index element={<Home />} />
         </Routes>
         <RandomButton />
         <Button />
