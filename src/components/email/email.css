@@ -1,14 +1,12 @@
 .email {
+  position: relative;
   text-align: end;
   font-family: "Trispace", sans-serif;
   color: var(--clr-primary);
-  color: var(--clr-accent);
-  z-index: 100;
+  z-index: 500;
   line-height: 0.8;
-  /* font-size: 2.07rem; */
   margin-right: 15px;
   font-size: 4.07rem;
-  /* font-size: 3.07rem; */
 }
 
 @media (max-width: 1800px) {
@@ -31,5 +29,16 @@
 @media (max-width: 700px) {
   .email {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .email {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 400px) {
+  .email {
+    font-size: 1rem;
   }
 }

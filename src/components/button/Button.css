@@ -35,3 +35,16 @@ button {
   transition: all 0.5s ease-in-out;
   z-index: 5;
 }
+
+@media (max-width: 460px) {
+  .random-button {
+    bottom: 6rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main-button {
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

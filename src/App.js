@@ -22,7 +22,7 @@ function App() {
   return (
     <main>
       <section id="section1" className="site-section section1">
-        {/* <RandomPixel /> */}
+        <RandomPixel />
         <Header />
         <div className="div1">
           <Name />
@@ -36,7 +36,6 @@ function App() {
         <div className="div4">
           <SecretText />
         </div>
-
         <RandomButton />
         <Button />
       </section>

@@ -50,3 +50,8 @@
     font-size: 3.5rem;
   }
 }
+@media (max-width: 400px) {
+  .last-first-name {
+    font-size: 3rem;
+  }
+}
