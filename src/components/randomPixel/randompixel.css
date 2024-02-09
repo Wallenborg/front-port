@@ -1,0 +1,13 @@
+.random-pixel {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  background-color: var(--clr-accent);
+}
+
+@media (max-width: 700px) {
+  .random-pixel {
+    width: 15vw;
+    height: 15vw;
+  }
+}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./randompixel.css";
 
 function RandomPixel({ keyToRestart }) {
   const [pixels, setPixels] = useState([]);
@@ -32,14 +33,8 @@ function RandomPixel({ keyToRestart }) {
       {pixels.map((pixel) => (
         <div
           key={pixel.id}
-          style={{
-            position: "absolute",
-            left: pixel.left,
-            top: pixel.top,
-            width: "5vw",
-            height: "5vw",
-            backgroundColor: "var(--clr-accent)",
-          }}
+          className="random-pixel"
+          style={{ left: pixel.left, top: pixel.top }}
         />
       ))}
     </div>
