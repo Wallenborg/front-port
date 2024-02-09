@@ -28,7 +28,7 @@ button {
 }
 
 .random-button {
-  font-family: monospace;
+  font-family: "Source Code Pro", monospace;
   position: fixed;
   bottom: 2rem;
   left: 4rem;
@@ -36,15 +36,8 @@ button {
   z-index: 5;
 }
 
-@media (max-width: 460px) {
-  .random-button {
-    bottom: 6rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .main-button {
-    bottom: 2.5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
+@media (max-width: 450px) {
+  button {
+    font-size: 0.8rem;
   }
 }
