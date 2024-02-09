@@ -1,5 +1,5 @@
-import "./App.css";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Updated import statements
 import Button from "./components/button/Button";
 import Header from "./components/header/Header";
 import Section1 from "./components/sections/Section1";
@@ -8,20 +8,23 @@ import RandomButton from "./components/button/RandomButton";
 import Section2 from "./components/sections/Section2";
 
 function App() {
-  //relod the page make the scroll go up
+  // reload the page and scroll to the top
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <main>
-      <RandomPixel />
-      <Header />
-      <Section1 />
-      <RandomButton />
-      <Button />
-      <Section2></Section2>
-    </main>
+    <Router>
+      <main>
+        <Header />
+        <Routes>
+          <Route path="/section1" element={<Section1 />} />
+          <Route path="/section2" element={<Section2 />} />
+        </Routes>
+        <RandomButton />
+        <Button />
+      </main>
+    </Router>
   );
 }
 

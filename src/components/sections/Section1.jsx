@@ -1,13 +1,14 @@
-import useDisableTouchScroll from "../../hooks/ useDisableTouchScroll";
 import SecretText from "../secrettext/SecretText";
 import Email from "../email/Email";
 import InfoText from "../infoText/InfoText";
 import Name from "../name/Name";
+import RandomPixel from "../randomPixel/RandomPixel";
+import "./sections.css";
 
 function Section1() {
-  useDisableTouchScroll();
   return (
     <section id="section1" className="site-section section1">
+      <RandomPixel />
       <div className="div1">
         <Name />
       </div>
