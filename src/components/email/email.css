@@ -35,6 +35,7 @@
 @media (max-width: 600px) {
   .email {
     font-size: 1.2rem;
+    font-weight: 900;
   }
 }
 @media (max-width: 400px) {
