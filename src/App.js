@@ -1,4 +1,5 @@
 import "./App.css";
+import { useEffect } from "react";
 import Button from "./components/button/Button";
 import Header from "./components/header/Header";
 import ProjectList from "./components/projectBox/ProjectList";
@@ -7,8 +8,16 @@ import Name from "./components/name/Name";
 import RandomPixel from "./components/randomPixel/RandomPixel";
 import InfoText from "./components/infoText/InfoText";
 import RandomButton from "./components/button/RandomButton";
+import useDisableTouchScroll from "./hooks/ useDisableTouchScroll";
 
 function App() {
+  //relod the page make the scroll go up
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useDisableTouchScroll(true);
+
   return (
     <main>
       <section id="section1" className="site-section section1">
@@ -16,8 +25,8 @@ function App() {
         <RandomPixel />
         <Header />
         <Name />
-        <p className="testtest">I build things for the Web !</p>
         <InfoText />
+        <p className="testtest">I build things for the Web !</p>
         <RandomButton />
         <Button />
       </section>

@@ -1,7 +1,8 @@
 export const projects = [
   {
     title: "Art Portfolio",
-    infotext: "Some text",
+    infotext:
+      "Some text that describe the project and some of the learning I got...",
     icon1: "var(--clr-accent)",
     icon2: "var(--clr-accent)",
     icon3: "var(--clr-accent)",
@@ -16,7 +17,7 @@ export const projects = [
   {
     title: "Color Me Twice",
     infotext:
-      "Color Me Twice has been designed to assist you in creating an 2 color palette for your upcoming web development project. By selecting two colors, Color Me Twice will provide you based on your choice of colors, a primary color and its accompanying accent shade, resulting in a visually cohesive two-color composition.",
+      "Some text that describe the project and some of the learning I got...",
     icon1: "var(--clr-accent)",
     icon2: "var(--clr-accent)",
     icon3: "var(--clr-accent)",
@@ -24,14 +25,15 @@ export const projects = [
     icon5: "var(--clr-primary)",
     icon6: "var(--clr-primary)",
     icon7: "var(--clr-primary)",
-    link1: "https://www.niklaswallenborg.com/KarlMarxFashion.html",
+    link1: "https://color-me-twice.netlify.app/",
     link2: "https://www.niklaswallenborg.com/KarlMarxFashion.html",
     imgSrc: require("./img/img005.jpg"),
   },
 
   {
     title: "Karl Marx Fashion",
-    infotext: "Some text",
+    infotext:
+      "Some text that describe the project and some of the learning I got...",
     icon1: "var(--clr-accent)",
     icon2: "var(--clr-accent)",
     icon3: "var(--clr-accent)",
@@ -45,7 +47,8 @@ export const projects = [
   },
   {
     title: "Solar System Scroll!",
-    infotext: "Some text",
+    infotext:
+      "Some text that describe the project and some of the learning I got...",
     icon1: "var(--clr-accent)",
     icon2: "var(--clr-accent)",
     icon3: "var(--clr-accent)",
@@ -54,12 +57,13 @@ export const projects = [
     icon6: "var(--clr-primary)",
     icon7: "var(--clr-primary)",
     link1: "https://www.niklaswallenborg.com/KarlMarxFashion.html",
-    link2: null,
+    link2: "https://github.com/Wallenborg/react-solar-system",
     imgSrc: require("./img/img003.jpg"),
   },
   {
     title: "Going Under Under Ground",
-    infotext: "Some text",
+    infotext:
+      "Some text that describe the project and some of the learning I got...",
     icon1: "var(--clr-accent)",
     icon2: "var(--clr-accent)",
     icon3: "var(--clr-accent)",
@@ -68,12 +72,13 @@ export const projects = [
     icon6: "var(--clr-primary)",
     icon7: "var(--clr-primary)",
     link1: "https://going-under-underground.netlify.app/#",
-    link2: "https://github.com/Wallenborg",
+    link2: "https://github.com/Wallenborg/guug",
     imgSrc: require("./img/img008.jpg"),
   },
   {
     title: "The Algorithm Whisper",
-    infotext: "Some text",
+    infotext:
+      "Some text that describe the project and some of the learning I got...",
     icon1: "var(--clr-accent)",
     icon2: "var(--clr-accent)",
     icon3: "var(--clr-accent)",
@@ -82,12 +87,13 @@ export const projects = [
     icon6: "var(--clr-primary)",
     icon7: "var(--clr-primary)",
     link1: "https://fanciful-ganache-e9f55c.netlify.app/",
-    link2: "https://github.com/Wallenborg",
+    link2: "https://github.com/Wallenborg/algorithm-whisper",
     imgSrc: require("./img/img006.jpg"),
   },
   {
     title: "API Color Mix System",
-    infotext: "Some text",
+    infotext:
+      "Some text that describe the project and some of the learning I got...",
     icon1: "var(--clr-accent)",
     icon2: "var(--clr-accent)",
     icon3: "var(--clr-accent)",
@@ -96,7 +102,7 @@ export const projects = [
     icon6: "var(--clr-primary)",
     icon7: "var(--clr-primary)",
     link1: "https://cosmic-crostata-c8da36.netlify.app/",
-    link2: "https://github.com/Wallenborg",
+    link2: "https://github.com/Wallenborg/API-color-Weather-web",
     imgSrc: require("./img/img007.jpg"),
   },
   {
@@ -110,7 +116,7 @@ export const projects = [
           Hobbies: Art, Politics, Digital Culture, Sci-Fi, Gardening and Walking
         </p>
         <br />
-        <p>info@niklaswallenborg.com</p>
+        <p>niklas.wallenborg@hyperisland.se</p>
       </div>
     ),
     icon1: "var(--clr-accent)",

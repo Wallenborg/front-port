@@ -9,8 +9,20 @@ function Header() {
           <h1 className="title">Creative Developer</h1>
         </div>
         <div className="header--icon-box">
-          <FaInstagram className="header--icon" />
-          <FaGithub className="header--icon" />
+          <a
+            href="https://www.instagram.com/niklaswallenborg/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="header--icon" />
+          </a>
+          <a
+            href="https://github.com/Wallenborg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="header--icon" />
+          </a>
         </div>
       </header>
       <div className="square-box">

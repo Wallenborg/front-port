@@ -8,6 +8,7 @@
 }
 .email {
   align-self: end;
+  font-family: "Trispace", sans-serif;
   color: var(--clr-accent);
   margin: 0;
   line-height: 0.8;
