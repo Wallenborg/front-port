@@ -56,7 +56,7 @@ export const projects = [
     icon5: "var(--clr-primary)",
     icon6: "var(--clr-primary)",
     icon7: "var(--clr-primary)",
-    link1: "https://app.netlify.com/sites/cute-gingersnap-1cf73b/overview",
+    link1: "https://solar-system-scroll.netlify.app/",
     link2: "https://github.com/Wallenborg/react-solar-system",
     imgSrc: require("./img/img003.jpg"),
   },

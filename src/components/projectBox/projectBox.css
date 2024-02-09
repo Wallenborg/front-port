@@ -9,14 +9,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   overflow-y: scroll;
+  margin-bottom: 100px;
 }
 
 .project-box {
   display: flex;
   flex-direction: column;
   padding: 4px;
-  /* width: 350px;
-  height: 500px; */
   width: 300px;
   height: 500px;
   border: 5px solid var(--clr-accent);
@@ -56,11 +55,15 @@
   padding: 5px;
   border: 2px solid var(--clr-accent);
   border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
   color: var(--clr-accent);
   background-color: var(--clr-primary);
 }
 .project-title {
   text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
 }
 
 .link-box {
