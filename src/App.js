@@ -1,25 +1,19 @@
-import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Updated import statements
 import Button from "./components/button/Button";
 import Header from "./components/header/Header";
-import Section1 from "./components/sections/Section1";
-import RandomPixel from "./components/randomPixel/RandomPixel";
+import Home from "./pages/Home";
+
 import RandomButton from "./components/button/RandomButton";
-import Section2 from "./components/sections/Section2";
+import Projects from "./pages/Projects";
 
 function App() {
-  // reload the page and scroll to the top
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <Router>
       <main>
         <Header />
         <Routes>
-          <Route path="/section1" element={<Section1 />} />
-          <Route path="/section2" element={<Section2 />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
         <RandomButton />
         <Button />

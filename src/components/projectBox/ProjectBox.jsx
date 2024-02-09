@@ -10,8 +10,6 @@ import { FaReact } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { IoColorPalette } from "react-icons/io5";
 import { CgScreen } from "react-icons/cg";
-import { PiReadCvLogoFill } from "react-icons/pi";
-import useDisableTouchScroll from "../../hooks/ useDisableTouchScroll";
 
 function ProjectBox({
   icon1,
@@ -27,7 +25,6 @@ function ProjectBox({
   link2,
   imgSrc,
 }) {
-  // useDisableTouchScroll(false);
   return (
     <div className="project-box">
       <div className="img-box">

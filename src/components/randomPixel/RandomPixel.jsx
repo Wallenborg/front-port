@@ -36,8 +36,8 @@ function RandomPixel({ keyToRestart }) {
             position: "absolute",
             left: pixel.left,
             top: pixel.top,
-            width: "5vw",
-            height: "5vw",
+            width: "7vw",
+            height: "7vw",
             backgroundColor: "var(--clr-accent)",
           }}
         />
