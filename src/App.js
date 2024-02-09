@@ -3,12 +3,13 @@ import { useEffect } from "react";
 import Button from "./components/button/Button";
 import Header from "./components/header/Header";
 import ProjectList from "./components/projectBox/ProjectList";
-// import RandomSquare from "./components/randomSquare/RandomSquare";
 import Name from "./components/name/Name";
 import RandomPixel from "./components/randomPixel/RandomPixel";
 import InfoText from "./components/infoText/InfoText";
 import RandomButton from "./components/button/RandomButton";
 import useDisableTouchScroll from "./hooks/ useDisableTouchScroll";
+import SecretText from "./components/secrettext/SecretText";
+import Email from "./components/email/Email";
 
 function App() {
   //relod the page make the scroll go up
@@ -21,12 +22,21 @@ function App() {
   return (
     <main>
       <section id="section1" className="site-section section1">
-        {/* <RandomSquare /> */}
-        <RandomPixel />
+        {/* <RandomPixel /> */}
         <Header />
-        <Name />
-        <InfoText />
-        <p className="testtest">I build things for the Web !</p>
+        <div className="div1">
+          <Name />
+        </div>
+        <div className="div2">
+          <Email />
+        </div>
+        <div className="div3">
+          <InfoText />
+        </div>
+        <div className="div4">
+          <SecretText />
+        </div>
+
         <RandomButton />
         <Button />
       </section>

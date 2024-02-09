@@ -1,41 +1,52 @@
 .last-first-name {
-  align-self: end;
-  font-size: 12rem;
+  text-align: end;
+  font-size: 15rem;
   font-family: "Source Code Pro", monospace;
   color: var(--clr-accent);
-  margin: 0;
+  margin-right: 15px;
   line-height: 0.8;
 }
-.email {
-  align-self: end;
-  font-family: "Trispace", sans-serif;
-  color: var(--clr-accent);
-  margin: 0;
-  line-height: 0.8;
-  /* font-size: 2.07rem; */
-  font-size: 3.07rem;
-}
-.email-hidden {
-  color: var(--clr-primary);
-  z-index: 100;
+@media (max-width: 1800px) {
+  .last-first-name {
+    font-size: 12rem;
+  }
 }
 
 @media (max-width: 1500px) {
   .last-first-name {
-    font-size: 10rem;
-  }
-
-  .email {
-    font-size: 2.6rem;
+    font-size: 9rem;
   }
 }
 
 @media (max-width: 1300px) {
   .last-first-name {
-    font-size: 10rem;
+    font-size: 8rem;
   }
+}
+@media (max-width: 1000px) {
+  .last-first-name {
+    font-size: 7rem;
+  }
+}
+@media (max-width: 900px) {
+  .last-first-name {
+    font-size: 6rem;
+  }
+}
 
-  .email {
-    font-size: 3.07rem;
+@media (max-width: 700px) {
+  .last-first-name {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 600px) {
+  .last-first-name {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .last-first-name {
+    font-size: 3.5rem;
   }
 }
