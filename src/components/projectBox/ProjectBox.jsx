@@ -27,7 +27,7 @@ function ProjectBox({
   link2,
   imgSrc,
 }) {
-  useDisableTouchScroll(false);
+  // useDisableTouchScroll(false);
   return (
     <div className="project-box">
       <div className="img-box">

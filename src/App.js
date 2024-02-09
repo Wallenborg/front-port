@@ -17,7 +17,7 @@ function App() {
     window.scrollTo(0, 0);
   }, []);
 
-  useDisableTouchScroll(true);
+  // useDisableTouchScroll(true);
 
   return (
     <main>

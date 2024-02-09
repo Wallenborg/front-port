@@ -4,7 +4,7 @@ import ProjectBox from "./ProjectBox";
 import useDisableTouchScroll from "../../hooks/ useDisableTouchScroll";
 
 function ProjectList() {
-  useDisableTouchScroll(false);
+  // useDisableTouchScroll(false);
 
   return (
     <div className="test-box">
