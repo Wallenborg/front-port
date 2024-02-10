@@ -67,18 +67,13 @@ function RandomPixel({ keyToRestart }) {
       keyToRestart(); // Callback to trigger key change in parent
     }, 30 * 60 * 1000); // Restart after 30 minutes
 
-    const handleTouchMove = (e) => {
-      if (e.touches.length === 1) {
-        e.preventDefault();
-      }
-    };
-
-    document.addEventListener("touchmove", handleTouchMove, { passive: false });
+    document.body.classList.add("no-horizontal-scroll");
 
     return () => {
       clearInterval(intervalId);
       clearTimeout(restartTimer);
-      document.removeEventListener("touchmove", handleTouchMove);
+      // Remove the CSS class when the component is unmounted
+      document.body.classList.remove("no-horizontal-scroll");
     };
   }, [keyToRestart]);
 
