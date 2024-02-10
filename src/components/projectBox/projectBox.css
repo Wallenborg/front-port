@@ -7,6 +7,15 @@
   grid-template-rows: repeat(9, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+
+  opacity: 0;
+  transform: translateY(200px);
+  transition: opacity 1.5s ease, transform 2s ease;
+}
+
+.box-project.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (max-width: 800px) {

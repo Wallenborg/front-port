@@ -1,11 +1,17 @@
 import React, { useEffect, useRef } from "react";
 import "./projectBox.css";
+import { useInView } from "react-intersection-observer";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 function ProjectBox({ title, infotext, link1, link2, imgSrc, bgcl, cl }) {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
   return (
     <article
-      className="box-project"
+      ref={ref}
+      className={`box-project ${inView ? "visible" : ""}`}
       style={{
         backgroundColor: bgcl,
         color: cl,
