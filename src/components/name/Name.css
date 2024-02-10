@@ -1,57 +1,121 @@
-.last-first-name {
-  text-align: end;
-  font-size: 15rem;
+.box-name {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5.2vw;
+  margin-top: 62px;
+  position: relative;
+  z-index: 100;
+}
+@media (max-width: 800px) {
+  .box-name {
+    padding: 0 5.5vw;
+  }
+}
+@media (max-width: 600px) {
+  .box-name {
+    padding: 0 5.8vw;
+  }
+}
+@media (max-width: 500px) {
+  .box-name {
+    padding: 0 6.2vw;
+  }
+}
+@media (max-width: 450px) {
+  .box-name {
+    padding: 0 6.5vw;
+  }
+}
+@media (max-width: 360px) {
+  .box-name {
+    padding: 0 6.9vw;
+  }
+}
+
+.box-name--name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 7rem;
   font-family: "Source Code Pro", monospace;
-  color: var(--clr-accent);
-  margin-right: 15px;
   line-height: 0.8;
 }
-@media (max-width: 1800px) {
-  .last-first-name {
-    font-size: 12rem;
+
+.primary {
+  color: var(--clr-primary);
+}
+.accent {
+  color: var(--clr-accent);
+}
+
+@media (max-width: 1600px) {
+  .name {
+    font-size: 6.5rem;
   }
 }
 
-@media (max-width: 1500px) {
-  .last-first-name {
-    font-size: 9rem;
-  }
-}
-
-@media (max-width: 1300px) {
-  .last-first-name {
-    font-size: 8rem;
-  }
-}
-@media (max-width: 1000px) {
-  .last-first-name {
-    font-size: 7rem;
-  }
-}
-@media (max-width: 900px) {
-  .last-first-name {
+@media (max-width: 1400px) {
+  .name {
     font-size: 6rem;
   }
 }
 
-@media (max-width: 700px) {
-  .last-first-name {
-    font-size: 5rem;
-  }
-}
-@media (max-width: 600px) {
-  .last-first-name {
-    font-size: 4rem;
+@media (max-width: 1200px) {
+  .name {
+    font-size: 5.3rem;
   }
 }
 
-@media (max-width: 600px) {
-  .last-first-name {
+@media (max-width: 1000px) {
+  .name {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 880px) {
+  .name {
+    font-size: 4.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .name {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 700px) {
+  .name {
     font-size: 3.5rem;
   }
 }
-@media (max-width: 400px) {
-  .last-first-name {
+@media (max-width: 600px) {
+  .name {
     font-size: 3rem;
+  }
+}
+@media (max-width: 550px) {
+  .name {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 550px) {
+  .name {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .name {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 400px) {
+  .name {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .name {
+    font-size: 1.5rem;
   }
 }

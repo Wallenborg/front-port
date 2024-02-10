@@ -1,0 +1,17 @@
+.wrapper {
+  position: absolute;
+}
+
+.box-test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 1000px;
+  background-color: black;
+}
+
+.wip {
+  font-size: 5rem;
+  color: aliceblue;
+}

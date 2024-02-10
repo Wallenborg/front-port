@@ -1,22 +1,6 @@
-.main-button {
+.random-button {
   font-family: "Source Code Pro", monospace;
   position: fixed;
-  bottom: 2rem;
-  right: 4rem;
-  transition: all 0.5s ease-in-out;
-  z-index: 600;
-}
-
-.test2 {
-  width: 98vw;
-  height: 5px;
-  position: fixed;
-  bottom: 3.2rem;
-  background-color: var(--clr-accent);
-  z-index: 500;
-}
-
-button {
   padding: 0.5rem 1rem;
   border-radius: 50rem;
   font-weight: bold;
@@ -25,19 +9,22 @@ button {
   border: solid 4px var(--clr-accent);
   color: var(--clr-accent);
   cursor: pointer;
-}
-
-.random-button {
-  font-family: "Source Code Pro", monospace;
-  position: fixed;
-  bottom: 2rem;
-  left: 4rem;
-  transition: all 0.5s ease-in-out;
+  top: 90vh;
+  left: 10px;
   z-index: 600;
 }
+/* .line-button {
+  width: 100px;
+  height: 5px;
+  position: fixed;
+  top: 90vh;
+  left: 0;
+  background-color: var(--clr-accent);
+  z-index: 500;
+} */
 
-@media (max-width: 450px) {
-  button {
+@media (max-width: 850px) {
+  .random-button {
     font-size: 0.8rem;
   }
 }

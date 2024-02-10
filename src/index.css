@@ -13,16 +13,12 @@ html {
 
 body {
   margin: 0;
-  overflow-y: hidden;
+  overflow-y: auto;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-snap-type: y mandatory;
 }
 
-html {
-  scroll-snap-type: y mandatory;
-}
 h1,
 h2,
 h3,

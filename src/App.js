@@ -1,25 +1,18 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Button from "./components/button/Button";
 import Header from "./components/header/Header";
-import Home from "./pages/Home";
-import RandomPixel from "./components/randomPixel/RandomPixel";
 import RandomButton from "./components/button/RandomButton";
-import Projects from "./pages/Projects";
+import Start from "./pages/Start";
+import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <main>
-        <Header />
-        <RandomPixel />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-        <RandomButton />
-        <Button />
-      </main>
-    </Router>
+    <main className="wrapper">
+      <Header />
+      <Start />
+      <RandomButton />
+      <div className="box-test">
+        <p className="wip">WIP</p>
+      </div>
+    </main>
   );
 }
 

@@ -26,10 +26,8 @@ function Header() {
         </div>
       </header>
       <div className="square-box">
-        <div className="square1"></div>
-        <div className="square2"></div>
-        <div className="square3"></div>
-        <div className="square4"></div>
+        <div className="square"></div>
+        <div className="square"></div>
       </div>
     </div>
   );
