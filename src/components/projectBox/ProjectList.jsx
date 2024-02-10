@@ -4,7 +4,7 @@ import ProjectBox from "./ProjectBox";
 
 function ProjectList() {
   return (
-    <div className="test-box">
+    <div>
       {projects.map((project, index) => (
         <ProjectBox key={index} {...project} />
       ))}

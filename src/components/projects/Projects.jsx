@@ -1,13 +1,30 @@
+import "./projects.css";
+import webpageImg from "../../img/img001.jpg";
+
 function Projects() {
   return (
     <div>
-      <div>
-        <img className="siteimg" src={imgSrc} alt="Landing page of a website" />
-        <h2 className="site-title">{title}</h2>
+      <div className="box-project">
+        <div className="pixel-border"></div>
+        <div className="project-img">
+          <img
+            className="round-img"
+            src={webpageImg}
+            alt="landing page website"
+          />
+          ;
+        </div>
+        <div className="project-title">
+          <div className="project-title-text">Art portfolio</div>
+        </div>
+        <div className="project-info"></div>
+        <div className="project-link"></div>
       </div>
     </div>
   );
 }
+
+export default Projects;
 
 // return (
 //     <div className="project-box">

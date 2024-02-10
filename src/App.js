@@ -1,6 +1,8 @@
 import Header from "./components/header/Header";
 import RandomButton from "./components/button/RandomButton";
 import Start from "./pages/Start";
+import ProjectList from "./components/projectBox/ProjectList";
+
 import "./App.css";
 
 function App() {
@@ -9,9 +11,7 @@ function App() {
       <Header />
       <Start />
       <RandomButton />
-      <div className="box-test">
-        <p className="wip">WIP</p>
-      </div>
+      <ProjectList />
     </main>
   );
 }
