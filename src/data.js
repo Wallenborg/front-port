@@ -28,16 +28,121 @@ export const projects = [
         </dl>
       </div>
     ),
-    icon1: "var(--clr-accent)",
-    icon2: "var(--clr-accent)",
-    icon3: "var(--clr-accent)",
-    icon4: "var(--clr-accent)",
-    icon5: "var(--clr-primary)",
-    icon6: "var(--clr-primary)",
-    icon7: "var(--clr-primary)",
+
+    bgcl: "var(--clr-accent)",
+    cl: "var(--clr-primary)",
     link1: "https://solar-system-scroll.netlify.app/",
     link2: "https://github.com/Wallenborg/react-solar-system",
     imgSrc: require("./img/webimg001.jpg"),
+  },
+
+  {
+    title: "The Algorithm Whisper",
+    infotext: (
+      <div>
+        <h2 className="list-title">Key Learnings:</h2>
+        <dl>
+          <dt>React Hooks:</dt>
+          <dd>
+            Using React hooks (useState and useEffect) for managing component
+            state and handling side effects.
+          </dd>
+          <dt>Event-Driven Interactivity</dt>
+          <dd>
+            Utilizes event listeners to create an interactive user experience,
+            especially in response to scroll events.
+          </dd>
+          <dt>Dynamic Rendering</dt>
+          <dd>
+            Implements dynamic rendering of components based on user
+            interactions, scroll positions, or data arrays.
+          </dd>
+          <dt>Interactive Dropdown Menu</dt>
+          <dd>
+            Design and implementation of an interactive dropdown menu that
+            reveals information about planet distances on user interaction.
+          </dd>
+        </dl>
+      </div>
+    ),
+
+    bgcl: "var(--clr-primary)",
+    cl: "var(--clr-accent)",
+    link1: "https://solar-system-scroll.netlify.app/",
+    link2: "https://github.com/Wallenborg/react-solar-system",
+    imgSrc: require("./img/img006.jpg"),
+  },
+  {
+    title: "Color Me Twice",
+    infotext: (
+      <div>
+        <h2 className="list-title">Key Learnings:</h2>
+        <dl>
+          <dt>React Hooks:</dt>
+          <dd>
+            Using React hooks (useState and useEffect) for managing component
+            state and handling side effects.
+          </dd>
+          <dt>Event-Driven Interactivity</dt>
+          <dd>
+            Utilizes event listeners to create an interactive user experience,
+            especially in response to scroll events.
+          </dd>
+          <dt>Dynamic Rendering</dt>
+          <dd>
+            Implements dynamic rendering of components based on user
+            interactions, scroll positions, or data arrays.
+          </dd>
+          <dt>Interactive Dropdown Menu</dt>
+          <dd>
+            Design and implementation of an interactive dropdown menu that
+            reveals information about planet distances on user interaction.
+          </dd>
+        </dl>
+      </div>
+    ),
+
+    bgcl: "var(--clr-accent)",
+    cl: "var(--clr-primary)",
+    link1: "https://solar-system-scroll.netlify.app/",
+    link2: "https://github.com/Wallenborg/react-solar-system",
+    imgSrc: require("./img/img005.jpg"),
+  },
+  {
+    title: "Art Portfolio",
+    infotext: (
+      <div>
+        <h2 className="list-title">Key Learnings:</h2>
+        <dl>
+          <dt>React Hooks:</dt>
+          <dd>
+            Using React hooks (useState and useEffect) for managing component
+            state and handling side effects.
+          </dd>
+          <dt>Event-Driven Interactivity</dt>
+          <dd>
+            Utilizes event listeners to create an interactive user experience,
+            especially in response to scroll events.
+          </dd>
+          <dt>Dynamic Rendering</dt>
+          <dd>
+            Implements dynamic rendering of components based on user
+            interactions, scroll positions, or data arrays.
+          </dd>
+          <dt>Interactive Dropdown Menu</dt>
+          <dd>
+            Design and implementation of an interactive dropdown menu that
+            reveals information about planet distances on user interaction.
+          </dd>
+        </dl>
+      </div>
+    ),
+
+    bgcl: "var(--clr-primary)",
+    cl: "var(--clr-accent)",
+    link1: "https://solar-system-scroll.netlify.app/",
+    link2: "https://github.com/Wallenborg/react-solar-system",
+    imgSrc: require("./img/img001.jpg"),
   },
   // {
   //   title: "Art Portfolio",

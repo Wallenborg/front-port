@@ -6,7 +6,7 @@ function ProjectList() {
   return (
     <div>
       {projects.map((project, index) => (
-        <ProjectBox key={index} {...project} />
+        <ProjectBox key={project.title} {...project} />
       ))}
     </div>
   );

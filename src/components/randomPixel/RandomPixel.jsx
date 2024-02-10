@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./randompixel.css";
 
-function RandomPixel({ keyToRestart }) {
+function RandomPixel() {
   const [pixels, setPixels] = useState([]);
 
   useEffect(() => {
@@ -16,17 +16,9 @@ function RandomPixel({ keyToRestart }) {
 
     const intervalId = setInterval(generatePixel, 100);
 
-    const restartTimer = setTimeout(() => {
-      clearInterval(intervalId);
-      setPixels([]);
-      keyToRestart(); // Callback to trigger key change in parent
-    }, 30 * 60 * 1000); // Restart after 30 minutes
-
-    return () => {
-      clearInterval(intervalId);
-      clearTimeout(restartTimer);
-    };
-  }, [keyToRestart]);
+    // Cleanup function to stop the interval when the component unmounts
+    return () => clearInterval(intervalId);
+  }, []); // Empty dependency array to run the effect only once on mount
 
   return (
     <div className="pixel-container">

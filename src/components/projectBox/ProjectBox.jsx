@@ -1,27 +1,16 @@
+import React, { useEffect, useRef } from "react";
 import "./projectBox.css";
-import { FaCss3Alt, FaGithub, FaRegLightbulb, FaLaptop } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { TbBrandJavascript } from "react-icons/tb";
-import { IoColorPalette } from "react-icons/io5";
-import { CgScreen } from "react-icons/cg";
-import { FaHtml5 } from "react-icons/fa";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
-function ProjectBox({
-  icon1,
-  icon2,
-  icon3,
-  icon4,
-  icon5,
-  icon6,
-  icon7,
-  title,
-  infotext,
-  link1,
-  link2,
-  imgSrc,
-}) {
+function ProjectBox({ title, infotext, link1, link2, imgSrc, bgcl, cl }) {
   return (
-    <article className="box-project">
+    <article
+      className="box-project"
+      style={{
+        backgroundColor: bgcl,
+        color: cl,
+      }}
+    >
       <div className="pixel-border"></div>
       <div className="project-title">
         <h2 className="project-title-text">{title}</h2>
@@ -37,25 +26,22 @@ function ProjectBox({
         <div>{infotext}</div>
       </div>
       <div className="project-links">
-        <a href={link1} target="_blank" rel="noopener noreferrer">
-          <CgScreen />
-        </a>
-        <a href={link2} target="_blank" rel="noopener noreferrer">
-          <FaGithub />
-        </a>
-
-        {/* <div className="link-box">
-          {link1 && (
-            <a href={link1} target="_blank" rel="noopener noreferrer">
-              <CgScreen />
-            </a>
-          )}
-          {link2 && (
-            <a href={link2} target="_blank" rel="noopener noreferrer">
-              <FaGithub />
-            </a>
-          )}
-        </div> */}
+        <div className="link-box">
+          <BsFillArrowRightCircleFill className="link-icon" />
+          <a href={link1} target="_blank" rel="noopener noreferrer">
+            <p className="link-text" style={{ color: cl }}>
+              LAUNCH SITE
+            </p>
+          </a>
+        </div>
+        <div className="link-box">
+          <BsFillArrowRightCircleFill className="link-icon" />
+          <a href={link2} target="_blank" rel="noopener noreferrer">
+            <p className="link-text" style={{ color: cl }}>
+              CODE
+            </p>
+          </a>
+        </div>
       </div>
     </article>
   );
