@@ -144,6 +144,7 @@ export const projects = [
     link2: "https://github.com/Wallenborg/react-solar-system",
     imgSrc: require("./img/img001.jpg"),
   },
+
   // {
   //   title: "Art Portfolio",
   //   infotext:

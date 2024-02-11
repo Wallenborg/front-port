@@ -28,7 +28,7 @@ function ProjectBox({ title, infotext, link1, link2, imgSrc, bgcl, cl }) {
           alt="Landing page of a website"
         />
       </div>
-      <div className="projekt-info">
+      <div className="project-info">
         <div>{infotext}</div>
       </div>
       <div className="project-links">

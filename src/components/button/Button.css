@@ -12,7 +12,7 @@
   top: 90vh;
   top: 40;
   left: 10px;
-  z-index: 600;
+  z-index: 1000;
 }
 /* .line-button {
   width: 100px;
