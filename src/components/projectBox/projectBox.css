@@ -151,19 +151,22 @@ dd {
   display: flex;
   align-items: center;
   padding: 30px;
-  justify-content: space-between;
+  gap: 40px;
   font-size: 1.8rem;
 }
 
 .link-text {
-  margin-left: 30px;
-  margin-top: 6px;
-  font-size: 1.8rem;
+  /* margin-left: 30px; */
+  margin-left: 2vw;
+  margin-top: 4px;
+  /* font-size: 1.8rem; */
+  font-size: 1rem;
 }
 .link-box {
   display: flex;
   flex-direction: row;
 }
 .link-icon {
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  font-size: 1.5rem;
 }
