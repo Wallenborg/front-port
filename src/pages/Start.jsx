@@ -3,6 +3,7 @@ import Email from "../components/email/Email";
 import InfoText from "../components/infoText/InfoText";
 import Name from "../components/name/Name";
 import "./start.css";
+import RandomPixel from "../components/randomPixel/RandomPixel";
 
 function Start() {
   return (

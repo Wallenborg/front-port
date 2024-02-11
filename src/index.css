@@ -15,10 +15,14 @@ body {
   margin: 0;
   overflow-y: auto;
   overflow-x: hidden;
-  max-width: 100%;
+  position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--clr-primary);
+}
+
+html {
+  overflow-x: hidden;
 }
 
 h1,
