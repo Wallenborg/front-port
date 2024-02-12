@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from "react";
 import "./projectBox.css";
 import { useInView } from "react-intersection-observer";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
@@ -17,15 +16,18 @@ function ProjectBox({ title, infotext, link1, link2, imgSrc, bgcl, cl }) {
         color: cl,
       }}
     >
-      <div className="pixel-border"></div>
+      {/* <div className="pixel-border">
+        <PixelBorder />
+      </div> */}
       <div className="project-title">
         <h2 className="project-title-text">{title}</h2>
       </div>
       <div className="project-img">
         <img
           className="webpageimg"
+          style={{ border: `solid 7px ${cl}` }}
           src={imgSrc}
-          alt="Landing page of a website"
+          alt={`Landing page of ${title}`}
         />
       </div>
       <div className="project-info">

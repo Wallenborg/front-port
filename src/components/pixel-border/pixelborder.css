@@ -1,0 +1,58 @@
+.pixel-border-box {
+  display: flex;
+  justify-content: end;
+  background-color: transparent;
+  width: 100vh;
+}
+
+.border-box--pixel01 {
+  width: 10%;
+  height: 4vw;
+  background-color: var(--clr-primary);
+}
+
+.border-box--pixel02 {
+  width: 10%;
+  height: 2vh;
+  background-color: var(--clr-primary);
+}
+.border-box--pixel03 {
+  width: 10%;
+  height: 6vh;
+  background-color: var(--clr-primary);
+}
+.border-box--pixel04 {
+  width: 10%;
+  height: 1vh;
+  background-color: var(--clr-primary);
+}
+.border-box--pixel05 {
+  width: 10%;
+  height: 4vh;
+  background-color: var(--clr-primary);
+}
+.border-box--pixel06 {
+  width: 10%;
+  height: 2vh;
+  background-color: var(--clr-primary);
+}
+.border-box--pixel07 {
+  width: 10%;
+  height: 8vh;
+  background-color: var(--clr-primary);
+}
+.border-box--pixel08 {
+  width: 10%;
+  height: 6vh;
+  background-color: var(--clr-primary);
+}
+.border-box--pixel09 {
+  width: 10%;
+  height: 1vh;
+  background-color: var(--clr-primary);
+}
+.border-box--pixel10 {
+  width: 10%;
+  height: 2vh;
+  background-color: var(--clr-primary);
+}

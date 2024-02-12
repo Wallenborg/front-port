@@ -45,7 +45,7 @@ header {
 .header--icon {
   height: 40px;
   width: 40px;
-  color: var(--clr-primary);
+  color: c;
 }
 
 .square-box {

@@ -41,36 +41,34 @@ export const projects = [
     infotext: (
       <div>
         <h2 className="list-title">Key Learnings:</h2>
-        <dl>
-          <dt>React Hooks:</dt>
-          <dd>
-            Using React hooks (useState and useEffect) for managing component
-            state and handling side effects.
-          </dd>
-          <dt>Event-Driven Interactivity</dt>
-          <dd>
-            Utilizes event listeners to create an interactive user experience,
-            especially in response to scroll events.
-          </dd>
-          <dt>Dynamic Rendering</dt>
-          <dd>
-            Implements dynamic rendering of components based on user
-            interactions, scroll positions, or data arrays.
-          </dd>
-          <dt>Interactive Dropdown Menu</dt>
-          <dd>
-            Design and implementation of an interactive dropdown menu that
-            reveals information about planet distances on user interaction.
-          </dd>
-        </dl>
+        <p>React Hooks:</p>
+        <p>
+          Using React hooks (useState and useEffect) for managing component
+          state and handling side effects.
+        </p>
+        <p>Event-Driven Interactivity</p>
+        <p>
+          Utilizes event listeners to create an interactive user experience,
+          especially in response to scroll events.
+        </p>
+        <p>Dynamic Rendering</p>
+        <p>
+          Implements dynamic rendering of components based on user interactions,
+          scroll positions, or data arrays.
+        </p>
+        <p>Interactive Dropdown Menu</p>
+        <p>
+          Design and implementation of an interactive dropdown menu that reveals
+          information about planet distances on user interaction.
+        </p>
       </div>
     ),
 
     bgcl: "var(--clr-primary)",
     cl: "var(--clr-accent)",
-    link1: "https://solar-system-scroll.netlify.app/",
+    link1: "https://fanciful-ganache-e9f55c.netlify.app/",
     link2: "https://github.com/Wallenborg/react-solar-system",
-    imgSrc: require("./img/img006.jpg"),
+    imgSrc: require("./img/webimg004.jpg"),
   },
   {
     title: "Color Me Twice",
@@ -104,9 +102,9 @@ export const projects = [
 
     bgcl: "var(--clr-accent)",
     cl: "var(--clr-primary)",
-    link1: "https://solar-system-scroll.netlify.app/",
+    link1: "https://color-me-twice.netlify.app/",
     link2: "https://github.com/Wallenborg/react-solar-system",
-    imgSrc: require("./img/img005.jpg"),
+    imgSrc: require("./img/webimg006.jpg"),
   },
   {
     title: "Art Portfolio",
@@ -140,9 +138,9 @@ export const projects = [
 
     bgcl: "var(--clr-primary)",
     cl: "var(--clr-accent)",
-    link1: "https://solar-system-scroll.netlify.app/",
+    link1: "https://www.niklaswallenborg.com/",
     link2: "https://github.com/Wallenborg/react-solar-system",
-    imgSrc: require("./img/img001.jpg"),
+    imgSrc: require("./img/webimg003.jpg"),
   },
 
   // {
