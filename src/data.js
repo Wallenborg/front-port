@@ -40,7 +40,7 @@ export const projects = [
           Design and implementation of an interactive dropdown menu that reveals
           information about planet distances on user interaction.
         </p>
-        <p className="credit-text">Concept's layout and code by me.</p>
+        <p className="credit-text">Concept, layout and code by me.</p>
       </div>
     ),
 
