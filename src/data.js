@@ -175,6 +175,30 @@ export const projects = [
     imgSrc: require("./img/webimg003.jpg"),
     link: true,
   },
+  {
+    title: "That's is it! So far",
+    infotext: (
+      <div>
+        <br />
+        <p className="description-site"></p>
+        <h2 className="list-title"> Niklas Wallenborg</h2>
+        <p className="learnings-text">Name: Niklas Wallenborg</p>
+        <p className="learnings-text">Age: 45</p>
+        <p className="learnings-text">Family: Partner and 2 kids</p>
+        <p className="learnings-text">
+          Hobbies: Art, Politics, Digital Culture, Sci-Fi, Gardening and Walking
+        </p>
+        <br />
+        <p className="credit-text">niklas.wallenborg@hyperisland.se</p>
+      </div>
+    ),
+    bgcl: "var(--clr-accent)",
+    cl: "var(--clr-primary)",
+    link1: " ",
+    link2: " ",
+    imgSrc: require("./img/webimg007.jpg"),
+    link: false,
+  },
 
   // {
   //   title: "Art Portfolio",

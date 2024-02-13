@@ -1,6 +1,7 @@
 .footer {
-  margin-top: 300px; /* Push the footer to the bottom */
-  background-color: var(--clr-accent);
+  margin-top: auto; /* Push the footer to the bottom */
+  background-color: var(--clr-primary);
+  border: solid 10px var(--clr-accent);
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -11,5 +12,5 @@
 .footer--text {
   font-size: 1rem;
   font-family: "Trispace", sans-serif;
-  color: var(--clr-primary);
+  color: var(--clr-accent);
 }
