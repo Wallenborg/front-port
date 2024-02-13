@@ -3,9 +3,8 @@
   width: 100%;
   background-color: var(--clr-primary);
   display: grid;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   transition: var(--transition);
@@ -21,16 +20,17 @@
 }
 
 .grid--name {
-  grid-area: 1 / 1 / 3 / 13;
+  grid-area: 1 / 1 / 2 / 8;
 }
 .grid--secret-text {
-  grid-area: 3 / 1 / 8 / 7;
+  grid-area: 2 / 1 / 6 / 4;
   justify-self: center;
-  align-self: start;
+  align-self: center;
 }
 .grid--info-text {
-  grid-area: 3 / 7 / 8 / 13;
+  grid-area: 2 / 4 / 6 / 8;
   justify-self: end;
+  align-self: flex-start;
 }
 @media (max-width: 800px) {
   .grid--name {

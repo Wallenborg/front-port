@@ -40,23 +40,29 @@ export const projects = [
     title: "The Algorithm Whisper",
     infotext: (
       <div>
-        <h2 className="list-title">Key Learnings:</h2>
-        <p>React Hooks:</p>
+        <p className="description-site">
+          The concept behind this app, was to explore the vast interplanetary
+          distances, gaining a sense of the sheer magnitude of space. Scroll
+          your way through our solar system, from the Sun to Pluto. The
+          concept's layout and code by me.
+        </p>
+        <h2 className="list-title"> Key Learnings:</h2>
+        <p>&#x25CF; React Hooks:</p>
         <p>
           Using React hooks (useState and useEffect) for managing component
           state and handling side effects.
         </p>
-        <p>Event-Driven Interactivity</p>
+        <p>&#x25CF; Event-Driven Interactivity</p>
         <p>
           Utilizes event listeners to create an interactive user experience,
           especially in response to scroll events.
         </p>
-        <p>Dynamic Rendering</p>
+        <p>&#x25CF; Dynamic Rendering</p>
         <p>
           Implements dynamic rendering of components based on user interactions,
           scroll positions, or data arrays.
         </p>
-        <p>Interactive Dropdown Menu</p>
+        <p>&#x25CF; Interactive Dropdown Menu</p>
         <p>
           Design and implementation of an interactive dropdown menu that reveals
           information about planet distances on user interaction.
