@@ -122,7 +122,8 @@
 
 @media (max-width: 800px) {
   .project-info {
-    padding: 40px;
+    margin-top: 20px;
+    padding: 10px 40px;
     grid-area: 5 / 1 / 9 / 2;
   }
 }
