@@ -47,8 +47,8 @@ ul {
 }
 
 :root {
-  --clr-accent: #91e383;
-  --clr-primary: #6e1c7c;
+  --clr-accent: #ad2f26;
+  --clr-primary: #52d0d9;
   --transition: background-color 1s ease-in-out, color 1s ease-in-out;
   /* transition: var(--transition) */
 }

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const useGetComplementaryColor = ({ mixColor }) => {
-  const [complementaryColor, setComplementaryColor] = useState("#054547");
+  const [complementaryColor, setComplementaryColor] = useState("#000");
   /* This step involves mapping over the RGB array and subtracting each
  component from 255. This effectively calculates the complementary RGB values.*/
   const calculateComplementaryColor = (hexColor) => {

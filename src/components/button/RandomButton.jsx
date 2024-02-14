@@ -3,8 +3,8 @@ import chroma from "chroma-js";
 import "./Button.css";
 
 function RandomButton() {
-  const [primaryColor, setPrimaryColor] = useState("#6e1c7c");
-  const [accentColor, setAccentColor] = useState("#91e383");
+  const [primaryColor, setPrimaryColor] = useState("#52d0d9");
+  const [accentColor, setAccentColor] = useState("#ad2f26");
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {

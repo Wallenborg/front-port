@@ -106,7 +106,8 @@
 @media (max-width: 800px) {
   .project-title-text {
     font-size: 3.2rem;
-    left: 30px;
+    left: 15px;
+
     top: 100px;
   }
 }
@@ -147,12 +148,12 @@
   }
 }
 .learnings-bullet {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-right: 6px;
 }
 .learnings-headline {
   font-family: "Trispace", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 6px;
 }
