@@ -16,13 +16,6 @@
   z-index: 600;
 }
 
-.infotext-box--text {
-  margin-bottom: 10px;
-}
-
-.email {
-  text-align: center;
-}
 @media (max-width: 1800px) {
   .infotext-box {
     width: 700px;
