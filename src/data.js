@@ -144,7 +144,7 @@ export const projects = [
     bgcl: "var(--clr-accent)",
     cl: "var(--clr-primary)",
     link1: "https://color-me-twice.netlify.app/",
-    link2: "https://github.com/Wallenborg/react-solar-system",
+    link2: "https://github.com/Wallenborg/color-me-twice-master",
     imgSrc: require("./img/webimg006.jpg"),
     link: true,
   },
@@ -153,38 +153,35 @@ export const projects = [
     infotext: (
       <div>
         <p className="description-site">
-          The concept behind this app was to explore the vast interplanetary
-          distances, gaining a sense of the sheer magnitude of space. Scroll
-          your way through our solar system, from the Sun to Pluto. The
-          concept's layout and code by me.
+          This was my first bigger build, updating my artist portfolio from a
+          WordPress to a custom built website with html, css and Javascript
         </p>
         <h2 className="list-title"> Key Learnings:</h2>
-        <div>&#x25CF; React Hooks:</div>
-        <div>
-          Using React hooks (useState and useEffect) for managing component
-          state and handling side effects.
+        <div className="learnings-headline">
+          <span className="learnings-bullet">&#x25CF;</span>The Fundamentals:
         </div>
-        <div>&#x25CF; Event-Driven Interactivity</div>
-        <div>
-          Utilizes event listeners to create an interactive user experience,
-          especially in response to scroll events.
+        <div className="learnings-text">
+          to use html, css and javascript to build a page
         </div>
-        <div>&#x25CF; Dynamic Rendering</div>
-        <div>
-          Implements dynamic rendering of components based on user interactions,
-          scroll positions, or data arrays.
+        <div className="learnings-headline">
+          <span className="learnings-bullet">&#x25CF;</span>Responsive Design:
         </div>
-        <div>&#x25CF; Interactive Dropdown Menu</div>
-        <div>
-          Design and implementation of an interactive dropdown menu that reveals
-          information about planet distances on user interaction.
+        <div className="learnings-text">
+          Ensures an good viewing experience across diverse devices.
         </div>
+        <div className="learnings-headline">
+          <span className="learnings-bullet">&#x25CF;</span>FTP:
+        </div>
+        <div className="learnings-text">
+          Understanding the process of installing and how to use an FTP server
+        </div>
+        <p className="credit-text">Concept, design, and code by me.</p>
       </div>
     ),
     bgcl: "var(--clr-primary)",
     cl: "var(--clr-accent)",
     link1: "https://www.niklaswallenborg.com/",
-    link2: "https://github.com/Wallenborg/react-solar-system",
+    link2: "https://github.com/Wallenborg/niklaswallenborg.com",
     imgSrc: require("./img/webimg003.jpg"),
     link: true,
   },
