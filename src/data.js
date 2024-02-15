@@ -212,6 +212,14 @@ export const projects = [
           Art, Politics, Digital Culture, Sci-Fi, Gardening, and Walking
         </div>
         <br />
+        <div className="learnings-headline">
+          <span className="learnings-bullet">&#x25CF;</span>Skills:
+        </div>
+        <div>
+          html, css, Javascript and React.
+          <br /> Right now we are studying SEO, Accessibility and after that we
+          will dive in to the Backend.
+        </div>
         <p className="credit-text">niklas.wallenborg@hyperisland.se</p>
       </div>
     ),
