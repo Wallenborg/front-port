@@ -25,10 +25,10 @@ function Header() {
           </a>
         </div>
       </header>
-      <div className="square-box">
+      {/* <div className="square-box">
         <div className="square"></div>
         <div className="square"></div>
-      </div>
+      </div> */}
     </div>
   );
 }

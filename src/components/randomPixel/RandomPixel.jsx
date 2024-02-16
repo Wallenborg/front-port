@@ -14,7 +14,7 @@ function RandomPixel() {
       setPixels((prevPixels) => [...prevPixels, newPixel]);
     };
 
-    const intervalId = setInterval(generatePixel, 100);
+    const intervalId = setInterval(generatePixel, 80);
 
     // Cleanup function to stop the interval when the component unmounts
     return () => clearInterval(intervalId);

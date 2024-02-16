@@ -48,7 +48,7 @@ header {
   color: var(--clr-primary);
 }
 
-.square-box {
+/* .square-box {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -58,7 +58,7 @@ header {
   width: 4vw;
   height: 12vw;
   background-color: var(--clr-accent);
-}
+} */
 
 /* font-family: 'Source Code Pro', monospace;
 font-family: 'Trispace', sans-serif; */

@@ -119,3 +119,9 @@
     font-size: 1.5rem;
   }
 }
+
+.square {
+  width: 4vw;
+  height: 12vw;
+  background-color: var(--clr-accent);
+}
