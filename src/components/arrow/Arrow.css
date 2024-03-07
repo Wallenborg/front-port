@@ -1,0 +1,13 @@
+.arrow {
+  position: absolute;
+  right: 20%;
+  top: 500px;
+  color: var(--clr-primary);
+  width: 100px;
+  height: 100px;
+  z-index: 2000;
+}
+
+.turn {
+  transform: rotate(90deg);
+}
