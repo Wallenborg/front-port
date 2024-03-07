@@ -5,9 +5,9 @@ import { MdDoubleArrow } from "react-icons/md";
 import "./Arrow.css";
 
 function Arrow() {
-  //   return <LuArrowDownFromLine className="arrow" />;
+  return <LuArrowDownFromLine className="arrow" />;
   //   return <FaArrowCircleDown className="arrow" />;
-  return <MdDoubleArrow className="arrow turn" />;
+  //   return <MdDoubleArrow className="arrow turn" />;
 }
 
 export default Arrow;
