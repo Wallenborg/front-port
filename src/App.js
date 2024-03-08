@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <main>
+    <main className="box-main">
       <Header />
       <Start />
       <Arrow />
