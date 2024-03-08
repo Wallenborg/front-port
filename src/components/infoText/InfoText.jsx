@@ -11,7 +11,7 @@ function InfoText() {
         in Stockholm.
         <br />
         <p className="infotext-box--span">
-          Looking for six monthslong internship, start September 2024.
+          Looking for six months internship, start September 2024.
         </p>
         <p className="infotext-box--text">niklas.wallenborg@hyperisland.se</p>
       </div>

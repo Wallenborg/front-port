@@ -186,7 +186,7 @@ export const projects = [
     link: true,
   },
   {
-    title: "That's is it! so far.",
+    title: "Let's build something!",
     infotext: (
       <div>
         <br />
@@ -226,7 +226,7 @@ export const projects = [
     cl: "var(--clr-primary)",
     link1: " ",
     link2: " ",
-    imgSrc: require("./img/webimg007.jpg"),
+    imgSrc: require("./img/nw.jpeg"),
     link: false,
   },
 ];
