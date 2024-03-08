@@ -1,5 +1,5 @@
 .section-start-grid {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background-color: var(--clr-primary);
   display: grid;

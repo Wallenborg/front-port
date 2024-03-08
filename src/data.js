@@ -215,10 +215,9 @@ export const projects = [
         <div className="learnings-headline">
           <span className="learnings-bullet">&#x25CF;</span>Skills:
         </div>
-        <div>
-          html, css, Javascript and React.
-          <br /> Right now we are studying SEO, Accessibility and after that we
-          will dive in to the Backend.
+        <div className="skills">
+          html, css, Javascript, React, SEO and Accessibility
+          <br /> Right now we are studying Backend.
         </div>
         <p className="credit-text">niklas.wallenborg@hyperisland.se</p>
       </div>
