@@ -1,5 +1,5 @@
 import "./Header.css";
-import { FaInstagram, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaSmile } from "react-icons/fa";
 
 function Header() {
   return (
@@ -22,6 +22,13 @@ function Header() {
             rel="noopener noreferrer"
           >
             <FaGithub className="header--icon" />
+          </a>
+          <a
+            href="https://how-was-your-day.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaSmile className="header--icon" />
           </a>
         </div>
       </header>
