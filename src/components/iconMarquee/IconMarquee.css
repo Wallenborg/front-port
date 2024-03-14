@@ -1,0 +1,13 @@
+.marquee-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 40px;
+  margin-top: 5px;
+  color: var(--clr-accent);
+}
+
+.marquee {
+  position: relative;
+  z-index: 5000;
+  background-color: var(--clr-primary);
+}

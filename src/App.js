@@ -4,6 +4,7 @@ import Start from "./pages/Start";
 import ProjectList from "./components/projectBox/ProjectList";
 import Footer from "./components/footer/Footer";
 import Arrow from "./components/arrow/Arrow";
+import IconMarquee from "./components/iconMarquee/IconMarquee";
 
 import "./App.css";
 
@@ -15,6 +16,7 @@ function App() {
       <Arrow />
       <RandomButton />
       <ProjectList />
+      <IconMarquee />
       <Footer />
     </main>
   );
