@@ -209,7 +209,8 @@ export const projects = [
           <span className="learnings-bullet">&#x25CF;</span>Hobbies:
         </div>
         <div>
-          Art, Politics, Digital Culture, Sci-Fi, Gardening, and Walking
+          Art, Creative Coding, Politics, Digital Culture, Sci-Fi, Gardening,
+          and Walking
         </div>
         <br />
         <div className="learnings-headline">
