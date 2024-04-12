@@ -12,6 +12,7 @@ import { SiAdobephotoshop, SiAdobeindesign } from "react-icons/si";
 import { GiPaintBrush } from "react-icons/gi";
 import { RiComputerLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
+import { TbSeo } from "react-icons/tb";
 
 function IconMarquee() {
   return (
@@ -21,6 +22,7 @@ function IconMarquee() {
       <FaHtml5 className="marquee-icon" />
       <IoLogoJavascript className="marquee-icon" />
       <FaCss3Alt className="marquee-icon" />
+      <TbSeo className="marquee-icon" />
       <FaRegLightbulb className="marquee-icon" />
       <FaGit className="marquee-icon" />
       <SiAdobephotoshop className="marquee-icon" />

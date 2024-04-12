@@ -47,7 +47,7 @@ export const projects = [
     cl: "var(--clr-primary)",
     link1: "https://solar-system-scroll.netlify.app/",
     link2: "https://github.com/Wallenborg/react-solar-system",
-    imgSrc: require("./img/webimg001.jpg"),
+    imgSrc: require("./img/webimg008.jpg"),
     link: true,
   },
 
@@ -180,7 +180,7 @@ export const projects = [
     ),
     bgcl: "var(--clr-primary)",
     cl: "var(--clr-accent)",
-    link1: "https://www.niklaswallenborg.com/",
+    link1: "https://www.niklaswallenborg.com/internet_art.php",
     link2: "https://github.com/Wallenborg/niklaswallenborg.com",
     imgSrc: require("./img/webimg003.jpg"),
     link: true,
