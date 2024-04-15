@@ -47,7 +47,7 @@ export const projects = [
     cl: "var(--clr-primary)",
     link1: "https://solar-system-scroll.netlify.app/",
     link2: "https://github.com/Wallenborg/react-solar-system",
-    imgSrc: require("./img/webimg008.jpg"),
+    imgSrc: require("./img/webimg001.jpg"),
     link: true,
   },
 
