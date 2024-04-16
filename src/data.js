@@ -173,7 +173,10 @@ export const projects = [
           alternative text for images and other non-text content.
         </div>
 
-        <p className="credit-text">Concept, design, and code by me.</p>
+        <p className="credit-text">
+          Concept, design, and code by Setayesh Nouri, Maria Nordqvist, Hifza
+          Batool, Samuel Abraham and me. Content by ChatGPT3
+        </p>
       </div>
     ),
     bgcl: "var(--clr-primary)",
