@@ -3,11 +3,11 @@
   height: 40px;
   margin-right: 40px;
   margin-top: 5px;
-  color: var(--clr-accent);
+  color: var(--clr-primary);
 }
 
 .marquee {
   position: relative;
   z-index: 5000;
-  background-color: var(--clr-primary);
+  background-color: var(--clr-accent);
 }
