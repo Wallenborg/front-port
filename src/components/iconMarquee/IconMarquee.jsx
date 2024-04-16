@@ -7,6 +7,7 @@ import {
   FaTools,
   FaGit,
   FaRegLightbulb,
+  FaStarOfLife,
 } from "react-icons/fa";
 import { SiAdobephotoshop, SiAdobeindesign } from "react-icons/si";
 import { GiPaintBrush } from "react-icons/gi";
@@ -22,6 +23,7 @@ function IconMarquee() {
       <FaHtml5 className="marquee-icon" />
       <IoLogoJavascript className="marquee-icon" />
       <FaCss3Alt className="marquee-icon" />
+      <FaStarOfLife className="marquee-icon" />
       <TbSeo className="marquee-icon" />
       <FaRegLightbulb className="marquee-icon" />
       <FaGit className="marquee-icon" />
@@ -36,6 +38,7 @@ function IconMarquee() {
       <FaCss3Alt className="marquee-icon" />
       <SiAdobephotoshop className="marquee-icon" />
       <SiAdobeindesign className="marquee-icon" />
+      <FaStarOfLife className="marquee-icon" />
       <FaTools className="marquee-icon" />
       <GiPaintBrush className="marquee-icon" />
       <RiComputerLine className="marquee-icon" />

@@ -255,8 +255,9 @@ export const projects = [
           <span className="learnings-bullet">&#x25CF;</span>Skills:
         </div>
         <div className="skills">
-          html, css, Javascript, React, SEO and Accessibility
-          <br /> Right now we are studying Backend.
+          html, css, Javascript, React, SEO and Accessibility, some Node.js
+          <br />
+          Right now I'm looking in and play around with p5.js
         </div>
         <p className="credit-text">niklas.wallenborg@hyperisland.se</p>
       </div>
