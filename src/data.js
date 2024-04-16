@@ -149,6 +149,41 @@ export const projects = [
     link: true,
   },
   {
+    title: "The Reactor",
+    infotext: (
+      <div>
+        <p className="description-site">
+          This is a dummy React blog built with the purpose of training to write
+          accessible and SEO friendly code.
+        </p>
+        <h2 className="list-title"> Key Learnings:</h2>
+        <div className="learnings-headline">
+          <span className="learnings-bullet">&#x25CF;</span>SEO Optimization:
+        </div>
+        <div className="learnings-text">
+          Optimizing meta tags, such as title, description, and keywords, using
+          descriptive and relevant headings, creating meaningful URLs, and
+          ensuring fast page loading times.
+        </div>
+        <div className="learnings-headline">
+          <span className="learnings-bullet">&#x25CF;</span>Accessibility:
+        </div>
+        <div className="learnings-text">
+          Semantic HTML structure, keyboard navigation support, and providing
+          alternative text for images and other non-text content.
+        </div>
+
+        <p className="credit-text">Concept, design, and code by me.</p>
+      </div>
+    ),
+    bgcl: "var(--clr-primary)",
+    cl: "var(--clr-accent)",
+    link1: "https://the-reactor-blog.netlify.app/",
+    link2: "https://github.com/marianordqvist/React-blog-project",
+    imgSrc: require("./img/webimg008.jpg"),
+    link: true,
+  },
+  {
     title: "Art Portfolio",
     infotext: (
       <div>
@@ -178,8 +213,8 @@ export const projects = [
         <p className="credit-text">Concept, design, and code by me.</p>
       </div>
     ),
-    bgcl: "var(--clr-primary)",
-    cl: "var(--clr-accent)",
+    bgcl: "var(--clr-accent)",
+    cl: "var(--clr-primary)",
     link1: "https://www.niklaswallenborg.com/internet_art.php",
     link2: "https://github.com/Wallenborg/niklaswallenborg.com",
     imgSrc: require("./img/webimg003.jpg"),
@@ -223,8 +258,8 @@ export const projects = [
         <p className="credit-text">niklas.wallenborg@hyperisland.se</p>
       </div>
     ),
-    bgcl: "var(--clr-accent)",
-    cl: "var(--clr-primary)",
+    bgcl: "var(--clr-primary)",
+    cl: "var(--clr-accent)",
     link1: " ",
     link2: " ",
     imgSrc: require("./img/nw.jpeg"),
