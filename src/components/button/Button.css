@@ -9,8 +9,7 @@
   border: solid 4px var(--clr-accent);
   color: var(--clr-accent);
   cursor: pointer;
-  top: 82vh;
-  top: 40;
+  top: 80vh;
   left: 10px;
   z-index: 1000;
 }
